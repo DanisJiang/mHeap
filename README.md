@@ -2,7 +2,7 @@
 
 This is a simple lldb plugin designed to inspect heap information in libmalloc on macOS. It is still under development...
 
-As there has been no tool available on macOS to view global heap information (tools like malloc_history only show the history of individual chunk malloc and free operations), mHeap was developed. Understanding the overall heap status is crucial, especially when dealing with applications in pwn macOS.
+As there has been no tool available on macOS to view global heap information (tools like malloc_history only show the history of individual chunk malloc and free operations), mHeap was developed. Understanding the overall heap status is crucial, especially when pwning applications on macOS.
 
 (Written in 2022, have tested on macOS 13)
 
